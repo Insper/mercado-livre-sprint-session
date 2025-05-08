@@ -53,6 +53,9 @@ Todo o pipeline de engenharia de atributos precisa estar automatizado e no contr
 
 ## Modelagem
 
+* A equipe de MLEng deve definir a correta separação do dataset em treinamento, teste e validação, levando-se em consideração as características do 
+dataset e do problema. 
+
 * A equipe de MLEng deve implementar e testar diversos modelos visando otimizar resultados de negócio. 
 
 * Os modelos devem ser salvos no repositório de modelos do projeto. A equipe de MLOps deve providenciar um repositório de modelos e ferramentas para versionamento dos modelos. Este respositório deve permitir a recuperação de qualquer modelo e sua respecitva versão em qualquer momento.

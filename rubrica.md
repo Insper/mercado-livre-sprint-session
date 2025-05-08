@@ -22,45 +22,50 @@ A rubrica deste projeto é dividida por grupos apresentados abaixo.
 
 ## Engenharia de atributos
 
-TBD
+| Grupo | Requisito | Data de entrega | Conceito | 
+|-------|-----------|-----------------|----------|
+| Engenharia de atributos | [Experimentar diversos métodos para engenharia de atributos](./requisitos.md#engenharia-de-atributos) | 28/05 | B |
+| Engenharia de atributos | [Propor modificações que realmente agregam valor](./requisitos.md#engenharia-de-atributos) | 03/06 | A |
+
 
 ## Desenvolvimento e avaliação dos modelos
 
 | Grupo | Requisito | Data de entrega | Conceito | 
 |-------|-----------|-----------------|----------|
-| Modelagem | [Implementação de um pipeline para geração de um modelo baseline](./requisitos.md#modelagem) | 29/11 | C |
-| Modelagem | [Implementação da CNN descrita no artigo de referência](./requisitos.md#modelagem) | 06/12 | B |
-| Modelagem | [Implementação de um modelo de rede neural com outras características mas que tenham, no mínimo, um desempenho similar ao modelo descrito no artigo de referência.](./requisitos.md#modelagem) | 06/12 | A |
+| Modelagem | [Definir a correta separação do dataset em treinamento, teste e validação](./requisitos.md#modelagem) | 23/05 | C | 
+| Modelagem | [Implementação de um pipeline para geração modelos](./requisitos.md#modelagem) | 26/05 | C |
+| Modelagem | [Implementação de um modelo que tenha, no mínimo, um desempenho superior ao modelo *baseline*.](./requisitos.md#modelagem) | 03/06 | A |
 
 ## Apresentação dos resultados
 
 | Grupo | Requisito | Data de entrega | Conceito | 
 |-------|-----------|-----------------|----------|
-| Apresentação dos resultados | [Identificar as melhores métricas para avaliação dos modelos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 22/11 | C |
-| Apresentação dos resultados | [Definir um pipeline correto para avaliação dos modelos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 29/11 | C |
-| Apresentação dos resultados | [Apresentar os resultados obtidos com os modelos desenvolvidos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 06/12 | B |
-| Apresentação dos resultados | [Apresentar os modelos desenvolvidos e comparar os resultados obtidos com os resultados apresentados no artigo](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 06/12 | A |
-| Apresentação dos resultados | [Entregar um relatório técnico em markdown no repositório do projeto](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 06/12 | A |
+| Apresentação dos resultados | [Identificar as melhores métricas para avaliação dos modelos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 23/05 | C |
+| Apresentação dos resultados | [Definir um pipeline correto para avaliação dos modelos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 27/05 | C |
+| Apresentação dos resultados | [Apresentar os resultados obtidos com os modelos desenvolvidos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | B |
+| Apresentação dos resultados | [Apresentar os modelos desenvolvidos e comparar os resultados obtidos com os resultados do modelo *baseline*](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | A |
+| Apresentação dos resultados | [Apresentar os modelos resultados obtidos com os modelos do ponto de vista de negócio](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | A |
+| Apresentação dos resultados | [Entregar um relatório técnico em markdown no repositório do projeto](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | A |
 
 ## Deploy dos sistemas e modelos
 
 | Grupo | Requisito | Data de entrega | Conceito | 
 |-------|-----------|-----------------|----------|
-| Deploy | [Armazenar as versões dos modelos usando uma ferramenta específica para isto](./requisitos.md#deploy) | 29/11 | C |
-| Deploy | [Implementar um site web que demonstra o modelo treinado](./requisitos.md#deploy) | 29/11 | B |
-| Deploy | [Implementar uma rotina para análise em lote de imagens](./requisitos.md#deploy) | 29/11 | B |
-| Deploy | [Implementar uma infra-estrutura de log para monitoramento do modelo](./requisitos.md#deploy) | 03/12 | B |
-| Deploy | [Deploy automático da aplicação ao atualizar o branch main](./requisitos.md#deploy) | 03/12 | A |
-| Deploy | [Rotinas de testes automatizados para o site web e para a rotina em lote](./requisitos.md#deploy) | 03/12 | A |
+| Deploy | [Armazenar as versões dos modelos usando uma ferramenta específica para isto](./requisitos.md#deploy) | 23/05 | C |
+| Deploy | [Implementar um site web que demonstra o modelo treinado](./requisitos.md#deploy) | 30/05 | B |
+| Deploy | [Implementar uma rotina para análise de transações em lote](./requisitos.md#deploy) | 30/05 | B |
+| Deploy | [Implementar uma infra-estrutura de log para monitoramento do modelo](./requisitos.md#deploy) | 30/05 | B |
+| Deploy | [Deploy automático da aplicação ao atualizar o branch main](./requisitos.md#deploy) | 05/06 | A |
+| Deploy | [Rotinas de testes automatizados para o site web e para a rotina em lote](./requisitos.md#deploy) | 05/06 | A |
 
 ## Organização da equipe
 
 | Grupo | Requisito | Data de entrega | Conceito | 
 |-------|-----------|-----------------|----------|
 | Gestão de projetos | [Manter um kanban atualizado diariamente](./requisitos.md#gestão-de-projetos) | Diário | {OK, NOK} |
-| Organização dos repositórios | [Todos os códigos devem ser salvos em arquivos `.py` e todos os relatórios (incluindo apresentação) devem ser escritos em Markdown](./requisitos.md#entregáveis-e-estrutura-dos-repositórios) | 06/12 | {OK, NOK} |
-| Documentação | [Documentação adequada nos repositórios e artefatos do projeto](./requisitos.md#documentação) | 06/12 | {OK, NOK} |
-| Compreensão do problema | [Participação no curso da DASA por todos os membros da equipe](./requisitos.md#compreensão-do-problema) | 06/11 | {OK, NOK} |
+| Organização dos repositórios | [Todos os códigos devem ser salvos em arquivos `.py` e todos os relatórios (incluindo apresentação) devem ser escritos em Markdown](./requisitos.md#entregáveis-e-estrutura-dos-repositórios) | 05/06 | {OK, NOK} |
+| Documentação | [Documentação adequada nos repositórios e artefatos do projeto](./requisitos.md#documentação) | 05/06 | {OK, NOK} |
+| Compreensão do problema | [Participação na primeira reunião com a equipe do Mercado Livre](./requisitos.md#compreensão-do-problema) | 19/05 | {OK, NOK} |
 | Gestão de projetos | [Commits diários e relevantes por parte de todos os integrantes da equipe](./requisitos.md#gestão-de-projetos) | Diário | {OK, NOK} |
 | Gestão de projetos | [Commits organizados e claros](./requisitos.md#gestão-de-projetos). Por favor, considerem este [documento](https://bit.ly/insper_commits) de recomendações. | Diário | {OK, NOK} |
 
@@ -91,3 +96,7 @@ B & \quad \text{if $faltas \geq 4$}\\
 \text{Sem limite de conceito} & \quad \text{if $faltas < 4$}
 \end{cases}
 $$
+
+## Atividades extra projeto
+
+Eventualmente, ao longo do sprint, o professor poderá solicitar que os alunos respondam algum tipo de questionário. Se o aluno não entregar a reposta deste questionário então o aluno receberá um conceito a menos do que o conceito obtido na rubrica, podendo até ser reprovado. 

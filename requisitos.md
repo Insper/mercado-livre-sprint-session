@@ -58,9 +58,7 @@ dataset e do problema.
 
 * A equipe de MLEng deve implementar e testar diversos modelos visando otimizar resultados de negócio. 
 
-* Os modelos devem ser salvos no repositório de modelos do projeto. A equipe de MLOps deve providenciar um repositório de modelos e ferramentas para versionamento dos modelos. Este respositório deve permitir a recuperação de qualquer modelo e sua respecitva versão em qualquer momento.
-
-* A equipe de MLEng deve comparar os modelos desenvolvidos com o modelo *baseline* fornecido pela equipe do Mercado Livre. 
+* Os modelos devem ser salvos no repositório de modelos do projeto. A equipe de MLOps deve providenciar um repositório de modelos e ferramentas para versionamento dos modelos. Este respositório deve permitir a recuperação de qualquer modelo e sua respectiva versão em qualquer momento.
 
 * O pipeline end-to-end para criação do modelo e avaliação precisa estar automatizado e documentado. 
 
@@ -70,7 +68,7 @@ dataset e do problema.
 
 * A equipe de MLEng deve apresentar os resultados obtidos com os modelos desenvolvidos, considerando as métricas escolhidas.
 
-* A equipe do Insper deve ser capaz de apresentar o modelo desenvolvido e comparar os resultados obtidos com o modelo *baseline*.
+* A equipe do Insper deve ser capaz de selecionar o melhor modelo considerando as métricas de negócio e estimar a qualidade do modelo para identificar fraudes em ambiente de produção.
 
 ## Deploy do modelo
 

@@ -34,7 +34,7 @@ A rubrica deste projeto é dividida por grupos apresentados abaixo.
 |-------|-----------|-----------------|----------|
 | Modelagem | [Definir a correta separação do dataset em treinamento, teste e validação](./requisitos.md#modelagem) | 23/05 | C | 
 | Modelagem | [Implementação de um pipeline para geração modelos](./requisitos.md#modelagem) | 26/05 | C |
-| Modelagem | [Implementação de um modelo que tenha, no mínimo, um desempenho superior ao modelo *baseline*.](./requisitos.md#modelagem) | 03/06 | A |
+| Modelagem | [Implementação de modelos e avaliação dos mesmos](./requisitos.md#modelagem) | 03/06 | A |
 
 ## Apresentação dos resultados
 
@@ -43,7 +43,6 @@ A rubrica deste projeto é dividida por grupos apresentados abaixo.
 | Apresentação dos resultados | [Identificar as melhores métricas para avaliação dos modelos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 23/05 | C |
 | Apresentação dos resultados | [Definir um pipeline correto para avaliação dos modelos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 27/05 | C |
 | Apresentação dos resultados | [Apresentar os resultados obtidos com os modelos desenvolvidos](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | B |
-| Apresentação dos resultados | [Apresentar os modelos desenvolvidos e comparar os resultados obtidos com os resultados do modelo *baseline*](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | A |
 | Apresentação dos resultados | [Apresentar os modelos resultados obtidos com os modelos do ponto de vista de negócio](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | A |
 | Apresentação dos resultados | [Entregar um relatório técnico em markdown no repositório do projeto](./requisitos.md#avaliação-e-apresentação-dos-resultados) | 05/06 | A |
 
@@ -57,6 +56,7 @@ A rubrica deste projeto é dividida por grupos apresentados abaixo.
 | Deploy | [Implementar uma infra-estrutura de log para monitoramento do modelo](./requisitos.md#deploy) | 30/05 | B |
 | Deploy | [Deploy automático da aplicação ao atualizar o branch main](./requisitos.md#deploy) | 05/06 | A |
 | Deploy | [Rotinas de testes automatizados para o site web e para a rotina em lote](./requisitos.md#deploy) | 05/06 | A |
+
 
 ## Organização da equipe
 
@@ -80,6 +80,18 @@ Para as equipes que tiverem conceito C ou superior, os itens de organização da
 * Se dois itens estiverem NOK então o conceito será negativo. 
 * Se três ou quatro itens estiverem NOK então a equipe receberá um conceito a menos do que o conceito obtido na rubrica. 
 * Se cinco ou seis itens estiverem NOK então a equipe receberá dois conceitos a menos do que o conceito obtido na rubrica.
+
+## Validação final do modelo
+
+A equipe do Mercado Livre irá validar o modelo desenvolvido pelas equipes do Insper. A validação será feita com um dataset separado para este fim. O dataset de validação não será disponibilizado para a equipe do Insper durante o desenvolvimento, apenas no momento da validação. Esta validação irá ocorrer entre os dias 04/06 e 06/06 - a data exata ainda será definida. 
+
+Todas as equipes irão executar o seu melhor modelo no dataset de validação. O resultado desta validação irá alterar o conceito final da equipe. O conceito final será definido da seguinte forma:
+
+* Para o modelo como melhor desempenho a equipe terá o seu conceito increentado em 2 níveis. Por exemplo, se a equipe tinha A então o conceito final será A+. Se a equipe tinha B então o conceito final será A. Se a equipe tinha B+ então o conceito final será A+.
+* Para o modelo com o pior desempenho a equipe terá o seu conceito decrementado em 2 níveis. Por exemplo, se a equipe tinha A então o conceito final será B. Se a equipe tinha B+ então o conceito final será C+. 
+* Para o modelo com o segundo melhor desempenho a equipe terá o seu conceito incrementado em 1 nível. Por exemplo, se a equipe tinha A então o conceito final será A+. Se a equipe tinha B então o conceito final será B+. Se a equipe tinha C+ então o conceito final será B.
+* Para o modelo com o segundo pior desempenho a equipe terá o seu conceito decrementado em 1 nível. Por exemplo, se a equipe tinha A então o conceito final será B+. Se a equipe tinha B+ então o conceito final será B. Se a equipe tinha C+ então o conceito final será C.
+* Para os demais modelos e equipe o conceito permanecerá o mesmo.
 
 ## Faltas
 

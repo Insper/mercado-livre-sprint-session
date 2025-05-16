@@ -16,8 +16,5 @@ Antes de iniciar o projeto, **leiam com atenção os documentos a seguir, em esp
 
 ## Dataset
 
-O dataset para o projeto está disponível no blackboard da Sessão Sprint 4 2025/1, na aba **Conteúdo**. Os arquivos: ..... fazem parte do dataset. 
+O dataset para o projeto está disponível no link informado em sala de aula. 
 
-## Referências
-
-* TBD

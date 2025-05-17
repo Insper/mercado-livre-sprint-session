@@ -16,7 +16,7 @@ Antes de iniciar o projeto, **leiam com atenção os documentos a seguir, em esp
 
 ## Dataset
 
-O dataset para o projeto está disponível no blackboard da Sessão Sprint 4 2025/1, na aba **Conteúdo**. Os arquivos: ..... fazem parte do dataset. 
+O dataset para o projeto está disponível no blackboard da Sessão Sprint 4 2025/1, na aba **Conteúdo**. Os arquivos: payers-v1.feather, seller_terminals-v1.feather and trasactions_train-v1.feather fazem parte do dataset. 
 
 ## Referências
 

@@ -16,5 +16,5 @@ Antes de iniciar o projeto, **leiam com atenção os documentos a seguir, em esp
 
 ## Dataset
 
-O dataset para o projeto está disponível no link informado em sala de aula. 
+Os arquivos: payers-v1.feather, seller_terminals-v1.feather and trasactions_train-v1.feather fazem parte do dataset. 
 

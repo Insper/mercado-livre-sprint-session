@@ -109,6 +109,10 @@ B & \quad \text{if $faltas \geq 4$}\\
 \end{cases}
 $$
 
+## Participação em commits
+
+Se for constatado um desbalanceamento entre os commits dos membros da equipe, o professor irá considerar a quantidade de commits de cada membro e o conceito final de cada aluno poderá ser alterado.
+
 ## Atividades extra projeto
 
 Eventualmente, ao longo do sprint, o professor poderá solicitar que os alunos respondam algum tipo de questionário. Se o aluno não entregar a reposta deste questionário então o aluno receberá um conceito a menos do que o conceito obtido na rubrica, podendo até ser reprovado. 

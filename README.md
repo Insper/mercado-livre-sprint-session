@@ -18,3 +18,7 @@ Antes de iniciar o projeto, **leiam com atenção os documentos a seguir, em esp
 
 Os arquivos: payers-v1.feather, seller_terminals-v1.feather and trasactions_train-v1.feather fazem parte do dataset. O link para o download dos datasets está disponível no arquivo [Escopo do projeto](escopo.md).
 
+## Apresentação final do projeto
+
+* [Questionário de avaliação da apresentação](avaliacao_apresentacao.md)
+

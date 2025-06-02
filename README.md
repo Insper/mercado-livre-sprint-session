@@ -20,5 +20,11 @@ Os arquivos: payers-v1.feather, seller_terminals-v1.feather and trasactions_trai
 
 ## Apresentação final do projeto
 
-* [Questionário de avaliação da apresentação](avaliacao_apresentacao.md)
+* [Questionário de avaliação da apresentação](avaliacao_apresentacao.md), [versão PDF](avaliacao_apresentacao.pdf)
+
+## Comandos úteis
+
+```
+pandoc avaliacao_apresentacao.md -o avaliacao_apresentacao.pdf
+```
 

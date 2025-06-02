@@ -83,15 +83,11 @@ Para as equipes que tiverem conceito C ou superior, os itens de organização da
 
 ## Validação final do modelo
 
-A equipe do Mercado Livre irá validar o modelo desenvolvido pelas equipes do Insper. A validação será feita com um dataset separado para este fim. O dataset de validação não será disponibilizado para a equipe do Insper durante o desenvolvimento, apenas no momento da validação. Esta validação irá ocorrer entre os dias 04/06 e 06/06 - a data exata ainda será definida. 
+A equipe do Mercado Livre irá validar o modelo desenvolvido pelas equipes do Insper. A validação será feita com um dataset separado para este fim. O dataset de validação não será disponibilizado para a equipe do Insper durante o desenvolvimento, apenas no momento da validação. **Esta validação irá ocorrer entre os dias 04/06 e 06/06 - a data exata ainda será definida**. 
 
 Todas as equipes irão executar o seu melhor modelo no dataset de validação. O resultado desta validação irá alterar o conceito final da equipe. O conceito final será definido da seguinte forma:
 
-* Para o modelo como melhor desempenho a equipe terá o seu conceito increentado em 2 níveis. Por exemplo, se a equipe tinha A então o conceito final será A+. Se a equipe tinha B então o conceito final será A. Se a equipe tinha B+ então o conceito final será A+.
-* Para o modelo com o pior desempenho a equipe terá o seu conceito decrementado em 2 níveis. Por exemplo, se a equipe tinha A então o conceito final será B. Se a equipe tinha B+ então o conceito final será C+. 
-* Para o modelo com o segundo melhor desempenho a equipe terá o seu conceito incrementado em 1 nível. Por exemplo, se a equipe tinha A então o conceito final será A+. Se a equipe tinha B então o conceito final será B+. Se a equipe tinha C+ então o conceito final será B.
-* Para o modelo com o segundo pior desempenho a equipe terá o seu conceito decrementado em 1 nível. Por exemplo, se a equipe tinha A então o conceito final será B+. Se a equipe tinha B+ então o conceito final será B. Se a equipe tinha C+ então o conceito final será C.
-* Para os demais modelos e equipe o conceito permanecerá o mesmo.
+* Para o modelo com o melhor desempenho a equipe terá o seu conceito incrementado em 1 nível. Por exemplo, se a equipe tinha A então o conceito final será A+. Se a equipe tinha B então o conceito final será B+. Se a equipe tinha C+ então o conceito final será B.
 
 ## Faltas
 

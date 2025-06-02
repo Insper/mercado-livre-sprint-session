@@ -13,6 +13,8 @@ Com base na apresentação do projeto, assinale as alternativas que a equipe cum
 
 Caso a equipe não tenha cumprido os requisitos acima, por favor, descreva o que foi feito e o que falta fazer:
 
+<textarea rows="15" cols="70"></textarea>
+
 <table border="3" style="border-collapse: collapse; height: 200px; width: 600px;">
   <tr>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>

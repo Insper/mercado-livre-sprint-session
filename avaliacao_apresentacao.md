@@ -28,10 +28,11 @@ Caso a equipe não tenha cumprido os requisitos acima, por favor, descreva o que
 ```
 
 
-## Engenharia de atributos
+## Engenharia de atributos e desenvolvimento de modelos
 
 - [ ] A equipe experimentou diversos métodos para engenharia de atributos.
 - [ ] A equipe propôs novos atributos que tem uma capacidade preditiva alta. 
+- [ ] A equipe testou diversos modelos de machine learning.
 
 Caso a equipe não tenha cumprido os requisitos acima, por favor, descreva o que foi feito e o que falta fazer:
 
